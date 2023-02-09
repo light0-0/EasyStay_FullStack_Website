@@ -1,0 +1,47 @@
+
+.slider-img{
+    width: 100% !important;
+    height: 50vh !important;
+    /* padding-left: 20%; */
+   
+}
+
+.mySwipe h4{
+    background-color: black !important;
+    /* color: #3f3d5c !important; */
+    height: 13vh;
+    
+    background:  rgb(167, 24, 24) !important;
+    font-size: 15px;
+    border-left: 200px solid linear-gradient(
+        90deg,
+        rgba(71, 13, 33, 1) 0%,
+        /* rgba(156, 15, 72, 1) 100% */
+        #000
+      ) !important;
+    border-right: 200px solid linear-gradient(
+        90deg,
+        rgba(71, 13, 33, 1) 0%,
+        /* rgba(156, 15, 72, 1) 100% */
+        #000
+      ) !important;
+    
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .slider-img{
+        width: 100% !important;
+        height: 52vh !important;
+    }
+    .mySwipe h4{
+        background-color: #F9E4D4 !important;
+        color: #3f3d5c !important;
+        font-size: 14px;
+        padding-left: 0px !important;
+        padding-top: 10px !important;
+    }
+
+}
